@@ -88,6 +88,3 @@ A workflow plan is naturally represented as a dependency-aware task graph, but t
 
 The exact workflow-definition language and the extent of dynamic planning are open decisions. A generated plan must never bypass validation because it was produced during an already-authorized run.
 
-## Separation from Meridian
-
-The Workflow Orchestrator is not a generalized mode inside Meridian and is not a shared runtime beneath Meridian. It has its own product model, repository, architecture, implementation, contracts, and roadmap. Reuse of general engineering ideas is acceptable; code-level or schema-level coupling is not.
