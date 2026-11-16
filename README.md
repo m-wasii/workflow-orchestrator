@@ -4,7 +4,7 @@ A general-purpose platform for autonomous workflow execution.
 
 The Workflow Orchestrator accepts an authorized objective or workflow, turns it into an executable plan, coordinates tools and workers, tracks progress and side effects, and returns resulting outputs with an execution record.
 
-It is a separate product and repository from Meridian. Meridian is specialized in C/C++ to Rust modernization; this project is intended for general-purpose client workflows. The products must not share implementation, runtime, schemas, or code. Similar engineering principles do not imply shared components.
+The product is designed as a standalone, general-purpose platform. Its architecture, implementation, contracts, and roadmap are defined within this repository.
 
 ## Current status
 
@@ -31,7 +31,6 @@ This repository is at the architecture-definition stage. The initial documents e
 ## Non-goals for this initial foundation
 
 - Implementing a code-migration engine.
-- Reusing or extracting implementation from Meridian.
 - Locking the product to a particular LLM provider or agent framework.
 - Claiming exactly-once execution or guaranteed success for arbitrary workflows.
 - Choosing deployment and tenancy models before requirements are established.
